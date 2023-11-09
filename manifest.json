@@ -4,6 +4,6 @@
     "manifest_version": 3,
     "description": "An extension that changes your new tab's wallpaper with sports car pictures from many popular racing games."
     "icons": {
-        "128": "icons/
+        "128": "icons/car background extension icon.jpg"
     }
 }
