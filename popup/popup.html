@@ -2,27 +2,9 @@
     <head>
       <meta charset="UTF-8" />
       <title>Car picture</title>
-        
-      <script type="text/javascript">
-        ImageArray = new Array ();
-        ImageArray [0] = 'asphalt 8 car image.jpg';
-        ImageArray [1] = 'forza horizon 4 car image.jpg';
-        ImageArray [2] = 'nfs carbon car image.jpg';
-        ImageArray [3] = 'nfs heat car image.jpg';
-        ImageArray [4] = 'nfs no limits car image.jpg';
-        ImageArray [5] = 'nfs payback car image.jpg';
-        ImageArray [6] = 'nfs payback car image 2.jpg';
-    
-    
-        function getRandomImage () {
-          var num = Math.floor ( Math.random () * 7);
-          var img = ImageArray [num];
-          document.getElementById ("randImage").innerHTML = ('<img src="' + 'images/' + img + '">')
-        }
-      </script>
 
     </head>
-    <body onload="getRandomImage ()">
-        <div id="randImage"></div>    
+    <body>
+        <img src="/images/nfs payback car image" alt="pic" />    
     </body>
 </html>
